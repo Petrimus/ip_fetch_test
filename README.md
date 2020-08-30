@@ -16,6 +16,8 @@ API is served at https://ip-json-server.ey.r.appspot.com/api/[YOUR_CHOICE].
 /array/medium - which gives you 12 ip addresses, where 10 are correct and 2 contains letters,
 /array/hard - which gives you 14 ip addresses where 9 are correct and 5 are somehow wrong.
 
+example https://ip-json-server.ey.r.appspot.com/api/array/easy
+
 ## Task
 Your job is to fetch ips, filter correct ones and put them in to webpage like this. 
 
