@@ -1,0 +1,18 @@
+#root {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.button {
+  padding: 10px 10px;
+}
+
+#results {
+  margin-top: 10px;
+}
+
+.ip {
+  padding: 10px;
+}
