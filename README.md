@@ -22,3 +22,6 @@ example https://ip-json-server.ey.r.appspot.com/api/array/easy
 Your job is to fetch ips, filter correct ones and put them in to webpage like this. 
 
 ![Alt text](images/ip-addresses.png?raw=true)
+
+## Answer
+Inside sampleAnswer.txt are some possible solutions, maybe not the best ones. Can you come up with more elegant solutions?
