@@ -1,5 +1,5 @@
 # Practise javascript
-You are given a task to fetch ip data from an API. Can you manage to accomplish that?
+You are given a task to fetch ip data from an API. Can you do that?
 
 ## Instruction
 1. Clone or download this repo.
@@ -7,7 +7,8 @@ You are given a task to fetch ip data from an API. Can you manage to accomplish 
 
 2. Open vs code
 3. Open inde.html by right clicking it. There are no servers installed so you have refresh the page when change the code.
-4. Inside myFunction.js file is function myFetchFunction. Write your code inside of it. To display on web page, use addContent function.
+4. Inside myFunction.js file is function myFetchFunction. Write your code inside of it.Use addContent([string]) function 
+  to display on web site. It adds a <div> element with string content to the site.
 
 API is served at https://ip-json-server.ey.r.appspot.com/api/[YOUR_CHOICE].
 [yOUR_CHOICE] can be:
@@ -17,3 +18,5 @@ API is served at https://ip-json-server.ey.r.appspot.com/api/[YOUR_CHOICE].
 
 ## Task
 Your job is to fetch ips, filter correct ones and put them in to webpage like this. 
+
+![Alt text](images/ip-addresses.png?raw=true)
