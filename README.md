@@ -6,7 +6,7 @@ You are given a task to fetch ip data from an API. Can you do that?
   It contains a small size web site with plain javascript, html and css.
 
 2. Open vs code
-3. Open inde.html by right clicking it. There are no servers installed so you have refresh the page when change the code.
+3. Open index.html by right clicking it. There are no servers installed so you have refresh the page when change the code.
 4. Inside myFunction.js file is function myFetchFunction. Write your code inside of it.Use addContent([string]) function 
   to display on web site. It adds a <div> element with string content to the site.
 
