@@ -12,9 +12,9 @@ You are given a task to fetch ip data from an API. Can you do that?
 
 API is served at https://ip-json-server.ey.r.appspot.com/api/[YOUR_CHOICE].
 [yOUR_CHOICE] can be:
-/array/easy - which gives you a json list of 10 correct ip addresses,
-/array/medium - which gives you 12 ip addresses, where 10 are correct and 2 contains letters,
-/array/hard - which gives you 14 ip addresses where 9 are correct and 5 are somehow wrong.
+* /array/easy - which gives you a json list of 10 correct ip addresses,
+* /array/medium - which gives you 12 ip addresses, where 10 are correct and 2 contains letters,
+* /array/hard - which gives you 14 ip addresses where 9 are correct and 5 are somehow wrong.
 
 example https://ip-json-server.ey.r.appspot.com/api/array/easy
 
