@@ -3,7 +3,7 @@ You are given a task to fetch ip data from an API. Can you do that?
 
 ## Instruction
 1. Clone or download this repo.
-  It contains a small size web site with plain javascript, html and css.
+  It contains a small size web site with plain javascript, html, css and small db.json file for json-server.
 
 2. Open vs code
 3. Open index.html by right clicking it. There are no servers installed so you have refresh the page when change the code.
