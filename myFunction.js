@@ -1,7 +1,7 @@
-
 myFetchFunction = () => {
   // Write your code here. Use addContent(string) to add string inside
   // a <div> element inside webpage
+  
 };
 
 function addContent(value) {

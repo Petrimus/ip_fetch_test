@@ -3,7 +3,7 @@
 const regex = /^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$/
 
 myFetchFunction = () => {
-  fetch("http://localhost:3001/api/array/easy")
+  fetch("http://localhost:3000/ip_easy")
     .then((response) => response.json())
     .then(data => data.filter(ip => ip.match(regex)))
     .then((data) => {
@@ -38,7 +38,7 @@ const sendHttpRequest = (url) => {
 }
 
 myFetchFunction = () => {  
-  sendHttpRequest("http://localhost:3001/api/array/hard")
+  sendHttpRequest("http://localhost:3000/ip_hard")
     .then(data => data.filter(ip => ip.match(regex)))
     .then((data) => {
       data.forEach((ip) => {
@@ -54,7 +54,7 @@ myFetchFunction = () => {
 const regex = /^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$/;
 
 myFetchFunction = () => {
-  fetch("http://localhost:3001/api/object")
+  fetch("http://localhost:3000/ip_object")
     .then((response) => response.json())
     .then((data) => data.map((person) => person.ip))
     .then((data) => data.filter((ip) => ip.match(regex)))
