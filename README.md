@@ -12,7 +12,7 @@ You are given a task to fetch ip data from an API. Can you do that?
 
 ## Server
 API data is served from local json-server. You can install it globally with command 
-`npm install -g json-server` and run with command `json-server db.json ` 
+`npm install -g json-server` and run it with command `json-server db.json ` 
 or you can run it with NPX `npx json-server --watch db.json`.
 
 You can connect server localhost:3000/{'YOUR_CHOOICE']
