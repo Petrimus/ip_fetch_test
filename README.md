@@ -15,8 +15,8 @@ API data is served from local json-server. You can install it globally with comm
 `npm install -g json-server` and run it with command `json-server db.json ` 
 or you can run it with NPX `npx json-server --watch db.json`.
 
-You can connect server localhost:3000/{'YOUR_CHOOICE']
-[YOUR_CHOICE] can be:
+You can connect server localhost:3000/['YOUR_CHOOICE']
+YOUR_CHOICE can be:
 * /ip_easy - which gives you a json list of 10 correct ip addresses,
 * /ip_medium - which gives you 12 ip addresses, where 10 are correct and 2 contains letters,
 * /ip_hard - which gives you 14 ip addresses where 9 are correct and 5 are somehow wrong or
