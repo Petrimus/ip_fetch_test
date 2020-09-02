@@ -1,4 +1,4 @@
-# Practise javascript
+# Practise HTTP get requests
 You are given a task to fetch ip data from an API. Can you do that?
 
 ## Instruction
