@@ -10,13 +10,19 @@ You are given a task to fetch ip data from an API. Can you do that?
 4. Inside myFunction.js file is a function myFetchFunction. Write your code inside of it.Use addContent(["string"]) function 
   to display on web site. It adds a <div> element with string content to the site.
 
-API is served at https://ip-json-server.ey.r.appspot.com/api/[YOUR_CHOICE].
-[YOUR_CHOICE] can be:
-* /array/easy - which gives you a json list of 10 correct ip addresses,
-* /array/medium - which gives you 12 ip addresses, where 10 are correct and 2 contains letters,
-* /array/hard - which gives you 14 ip addresses where 9 are correct and 5 are somehow wrong.
+## Server
+API data is served from local json-server. You can install it globally with command 
+`npm install -g json-server` and run with command `json-server db.json ` 
+or you can run it with NPX `npx json-server --watch db.json`.
 
-example https://ip-json-server.ey.r.appspot.com/api/array/easy
+You can connect server localhost:3000/{'YOUR_CHOOICE']
+[YOUR_CHOICE] can be:
+* /ip_easy - which gives you a json list of 10 correct ip addresses,
+* /ip_medium - which gives you 12 ip addresses, where 10 are correct and 2 contains letters,
+* /ip_hard - which gives you 14 ip addresses where 9 are correct and 5 are somehow wrong or
+* /ip_object - which gives array of objects that have ip property, some right and some wrong.
+
+When json-serve is running localhost:3000 will give you more info.
 
 ## Task
 Your job is to fetch ips, filter correct ones and put them in to webpage like this. 
